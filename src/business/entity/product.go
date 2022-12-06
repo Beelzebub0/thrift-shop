@@ -6,6 +6,7 @@ type Product struct {
 	Price    int64  `db:"price" json:"price"`
 	Size     int64  `db:"size" json:"size"`
 	Quantity int64  `db:"quantity" json:"quantity"`
+	Status   int64  `db:"status" json:"status"`
 }
 
 type ProductParams struct {
